@@ -53,3 +53,7 @@ Needs the Xcode command line tools (`xcode-select --install`).
 ```
 
 The app is two Swift files: `main.swift` (the app) and `icon.swift` (the bell, drawn in code for both the menu bar and the app icon). `build.sh` runs a small self-test, builds a universal binary and generates the icon. `VERSION=1.2.0 ./build.sh zip` builds the release zip.
+
+## License
+
+[MIT](LICENSE)
